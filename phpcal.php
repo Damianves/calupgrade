@@ -36,7 +36,7 @@ $result =  $number1 / $number2;
 }
 
 if ($operatorok == false){
-$error = 'operator is niet geldig voer een geldige operator in.'.$operator;
+$error = 'Operator is niet geldig voer een geldige operator in.'.$operator;
 }
 if (!is_numeric($number1)){
 	$error = 'getal 1 is geen getal voer het in als cijfer bv (7 of 8). Wat u invulde -> '.$number1;
